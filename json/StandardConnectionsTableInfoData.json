@@ -1,0 +1,35 @@
+{
+"tables" : [
+	{
+		"id": "data",
+		"alias": "Data",
+		"columns": [
+			{ "id": "observationCode", "alias": "ObservationCode", "dataType": "string"},
+			{ "id": "fieldCode", "alias": "FieldCode", "dataType": "string"},
+			{ "id": "metricCode", "alias": "MetricCode", "dataType": "string"},
+			{ "id": "value", "alias": "Value", "dataType": "int"}
+		]
+	},{
+		"id": "observation",
+		"alias": "Observation",
+		"columns": [
+			{ "id": "observationCode", "alias": "ObservationCode", "dataType": "string"},
+			{ "id": "observationName", "alias": "Observation", "dataType": "string"}
+		]
+	},{
+		"id": "field",
+		"alias": "Field",
+		"columns": [
+			{ "id": "fieldCode", "alias": "FieldCode", "dataType": "string"},
+			{ "id": "fieldName", "alias": "Field", "dataType": "string"}
+		]
+	},{
+		"id": "metric",
+		"alias": "Metric",
+		"columns": [
+			{ "id": "metricCode", "alias": "MetricCode", "dataType": "string"},
+			{ "id": "metricName", "alias": "Metric", "dataType": "string"}
+		]
+	}
+]
+}
