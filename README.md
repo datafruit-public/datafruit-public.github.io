@@ -3,7 +3,7 @@
 Tableau Web Data Connector (WDC) võimaldab ühenduda Eesti Statistikaameti andmebaasiga. Näidisrakenduse on kokku pannud Datafruit OÜ.
 
 ---
-* Tableau WDC Eesti Statistikaameti API jaoks asub siin: [https://https://datafruit-public.github.io/statistikaamet.html](https://https://datafruit-public.github.io/statistikaamet.html)
+* Tableau WDC Eesti Statistikaameti API jaoks asub siin: [https://datafruit-public.github.io/statistikaamet.html](https://https://datafruit-public.github.io/statistikaamet.html)
 
 ## WDC kasutamine
 
@@ -13,7 +13,7 @@ Tableau Web Data Connector (WDC) võimaldab ühenduda Eesti Statistikaameti andm
 
 #### Tableau Serveri kasutus :cloud:
 1. Järgi juhiseid "Use a WDC in Tableau Server" [https://tableau.github.io/webdataconnector/docs/wdc_use_in_server](https://tableau.github.io/webdataconnector/docs/wdc_use_in_server).
-2. Uus andmeallika lisamisel -> Web Data Connector -> sisesta URL-na https://https://datafruit-public.github.io/statistikaamet.html. Sisesta andmetabeli tunnus ning soovitud mõõdik. Hetkel saab pärida andmeid, mis on esitatud **3 muutujaga**, kus var1=valdkond/omanikuliik, vms.; var2=mõõdik; var3=vaatlusperiood.
+2. Uus andmeallika lisamisel -> Web Data Connector -> sisesta URL-na https://datafruit-public.github.io/statistikaamet.html. Sisesta andmetabeli tunnus ning soovitud mõõdik. Hetkel saab pärida andmeid, mis on esitatud **3 muutujaga**, kus var1=valdkond/omanikuliik, vms.; var2=mõõdik; var3=vaatlusperiood.
 3. Lisainfo: [https://onlinehelp.tableau.com/current/server/en-us/datasource_wdc.htm](https://onlinehelp.tableau.com/current/server/en-us/datasource_wdc.htm)
 
 #### Nõuded
