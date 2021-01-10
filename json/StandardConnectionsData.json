@@ -1,0 +1,55 @@
+{
+"connections": [
+	{
+		"alias": "Statistikaamet API data",
+		"tables": [
+			{
+				"id": "data",
+				"alias": "Data"
+			},{
+				"id": "fieldCode",
+				"alias": "Field"
+			},{
+				"id": "metricCode",
+				"alias": "Metric"
+			},{
+				"id": "observationCode",
+				"alias": "Observation"
+			}
+		],
+		"joins": [
+			{
+				"left": {
+					"tableAlias": "Data",
+					"columnId": "fieldCode"
+				},
+				"right": {
+					"tableAlias": "Field",
+					"columnId": "fieldCode"
+				},
+				"joinType": "left"
+			},{
+				"left": {
+					"tableAlias": "Data",
+					"columnId": "metricCode"
+				},
+				"right": {
+					"tableAlias": "Metric",
+					"columnId": "metricCode"
+				},
+				"joinType": "left"
+			},{
+				"left": {
+					"tableAlias": "Data",
+					"columnId": "observationCode"
+				},
+				"right": {
+					"tableAlias": "Observation",
+					"columnId": "observationCode"
+				},
+				"joinType": "left"
+			}
+		]
+	}
+]
+}
