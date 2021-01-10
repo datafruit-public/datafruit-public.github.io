@@ -7,13 +7,13 @@
 				"id": "data",
 				"alias": "Data"
 			},{
-				"id": "fieldCode",
+				"id": "field",
 				"alias": "Field"
 			},{
-				"id": "metricCode",
+				"id": "metric",
 				"alias": "Metric"
 			},{
-				"id": "observationCode",
+				"id": "observation",
 				"alias": "Observation"
 			}
 		],
