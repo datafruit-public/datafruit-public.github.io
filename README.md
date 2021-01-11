@@ -30,8 +30,6 @@ Tableau Web Data Connector (WDC) võimaldab ühenduda Eesti Statistikaameti andm
 
 #### Nõuded
 * Antud WDC vajab töötamiseks võrguühendust
-
-Data flow:  Eesti Statistikaamet (REST API) <--> WDC (datafruit-public.github.io/statistikaamet) <--> Tableau Server/Desktop
 * Andmed liiguvad Eesti Statistikaameti API-st otse Tableau Desktop/Server, Tableau Desktop/Server jaoks peab WDC (datafruit-public.github.io/statistikaamet) olema nähtav. 
 
 ###  Teadaolevad kitsaskohad
